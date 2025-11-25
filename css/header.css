@@ -48,4 +48,35 @@ nav {
     text-decoration: none;
     color: var(--text-secundary-color);
     font-weight: var(--menu-text-weight);
+    font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .navegation-menu {
+        margin: 0;
+        width: 467px;
+    }
+    
+    .navegation-menu label {
+        display: none;
+    }
+
+    .navegation-menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navegation-menu nav {
+        display: block;
+    }
+   
+
+    
+
+
+
 }
