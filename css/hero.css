@@ -19,7 +19,15 @@
     .hero-img {
     background: url("../img/hero-tablet.jpg") no-repeat;
     height: 620px;
+    background-size: cover;
 
-}
+    }
 }
 
+@media screen and (min-width: 1024px) {
+    .hero-img {
+    background: url("../img/hero-desktop.jpg") no-repeat;
+    height: 620px;
+    background-size: cover;
+    }
+}
