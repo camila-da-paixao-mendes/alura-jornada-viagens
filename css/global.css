@@ -58,6 +58,19 @@ body {
   margin: 16px auto 32px;
 }
 
+.button {
+  display: inline-block;
+  text-decoration: none;
+  width: 280px;
+  height: 64px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  line-height: 64px;
+}
+
 
 
 
@@ -67,3 +80,13 @@ body {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .button:hover {
+      background-color: var(--primary-color);
+}
+
+}
