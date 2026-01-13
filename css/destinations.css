@@ -1,5 +1,6 @@
 .destinations {
-    margin: 0 24px;
+    width: 312px;
+    margin: 0 auto;
 }
 
 .item {
@@ -7,13 +8,6 @@
     flex-direction: column;
     gap: 24px;
     margin-bottom: 24px;
-}
-
-.destinations .item header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
 }
 
 .img-item {
@@ -43,36 +37,56 @@
     line-height: 32px;
 }
 
+.destinations .button {
+    width: 100%;
+
+}
+
 @media screen and (min-width: 768px) {
     .destinations {
-        margin: 0 60px;
+        width: 648px;
+        margin: 0 auto;
     }
 
     .img-item {
-    background: url("../img/populardestination-tokyo-tabletdesk.jpg") no-repeat;
-    height: 452px;
-    width: 100%;
-    background-size: cover;
-    margin-bottom: 24px;
+        background: url("../img/populardestination-tokyo-tabletdesk.jpg") no-repeat;
+        height: 452px;
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 24px;
     }
 
     .osaka {
-    background: url("../img/populardestination-osaka-mobile.jpg") no-repeat;
-    height: 452px;
-    width: 100%;
-    background-size: cover;
-    margin-bottom: 24px;
+        background: url("../img/populardestination-osaka-mobile.jpg") no-repeat;
+        height: 452px;
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 24px;
+    }
+
+    .destinations .button {
+        width: 280px;
+    
     }
 }
 
 @media screen and (min-width: 1024px) {
     .destinations {
-        margin: 0 120px;
+        width: 900px;
+        margin: 0 auto;
     }
     
     .destination-items {
         display: flex;
         gap: 24px;
         box-sizing: border-box;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .destinations {
+        width: 1200px;
+        margin: 0 auto;
     }
 }
