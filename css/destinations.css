@@ -1,8 +1,3 @@
-.destinations {
-    width: 312px;
-    margin: 0 auto;
-}
-
 .item {
     display: flex;
     flex-direction: column;
@@ -43,11 +38,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .destinations {
-        width: 648px;
-        margin: 0 auto;
-    }
-
+   
     .img-item {
         background: url("../img/populardestination-tokyo-tabletdesk.jpg") no-repeat;
         height: 452px;
@@ -71,11 +62,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .destinations {
-        width: 900px;
-        margin: 0 auto;
-    }
-    
     .destination-items {
         display: flex;
         gap: 24px;
