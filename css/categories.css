@@ -23,10 +23,7 @@
     box-sizing: border-box;
 }
 
-.categories-cards .card h3 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
-}
+
 
 .categories-cards .transfer img {
     margin: 20px 0 0px;

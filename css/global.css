@@ -74,6 +74,16 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  line-height: 32px;
+}
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -93,7 +103,7 @@ section.hero {
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
-    margin: 0 auto;
+    margin: 0 auto 88px;
   }
 
   .section-title h2 {

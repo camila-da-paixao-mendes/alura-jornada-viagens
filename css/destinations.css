@@ -22,15 +22,9 @@
 }
 
 .item h4 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
     margin: 0;
 }
 
-.item p {
-    font-size: 20px;
-    line-height: 32px;
-}
 
 .destinations .button {
     width: 100%;
@@ -69,10 +63,3 @@
     }
 }
 
-
-@media screen and (min-width: 1440px) {
-    .destinations {
-        width: 1200px;
-        margin: 0 auto;
-    }
-}
