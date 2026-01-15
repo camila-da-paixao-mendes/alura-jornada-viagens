@@ -24,7 +24,6 @@
     width: 86px;
 }
 
-
 .profile-content {
     display: flex;
     flex-direction: column;
@@ -36,7 +35,6 @@
     font-size: 20px;
     line-height: 32px;
 }
-
 
 .rating span {
     font-size: 32px;
