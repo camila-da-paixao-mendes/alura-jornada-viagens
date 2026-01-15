@@ -12,12 +12,18 @@
     margin-bottom: 8px;
 }
 
+
 .testimonial-container article footer {
     display: flex;
-    height: 86px;
-    width: 100%;
     gap: 24px;
+    align-items: center;
 }
+
+.testimonial-container article footer img {
+    height: 86px;
+    width: 86px;
+}
+
 
 .profile-content {
     display: flex;
@@ -32,17 +38,16 @@
 }
 
 
-
 .rating span {
-    font-size: 20px;
-    color: #B81515;
+    font-size: 32px;
+    color: var(--secondary-color);
+    line-height: 32px;
 }
 
 @media screen and (min-width:1440px) {
 
     .testimonial-container {
         flex-direction: row;
-        justify-content: center;
     }
 }
     
